@@ -1,21 +1,21 @@
 {
-  "name": "@moontaiworks/package-template",
+  "name": "@moontaiworks/basic-template",
   "type": "module",
   "private": false,
   "publishConfig": {
     "access": "public"
   },
-  "version": "2.0.0-pre",
+  "version": "0.0.0",
   "description": "An npm package template.",
   "author": "moontaiworks",
   "license": "UNLICENSED",
-  "homepage": "https://moontaiworks.github.io/package-template",
+  "homepage": "https://moontaiworks.github.io/basic-template",
   "bugs": {
-    "url": "https://github.com/moontaiworks/package-template/issues"
+    "url": "https://github.com/moontaiworks/basic-template/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/moontaiworks/package-template.git"
+    "url": "git+https://github.com/moontaiworks/basic-template.git"
   },
   "keywords": [
     "template"
@@ -58,7 +58,6 @@
     "eslint-config-prettier": "^9.1.0",
     "eslint-import-resolver-typescript": "^3.6.3",
     "eslint-plugin-perfectionist": "^3.9.1",
-    "globals": "^15.9.0",
     "husky": "^9.1.6",
     "lint-staged": "^15.2.10",
     "prettier": "^3.3.3",

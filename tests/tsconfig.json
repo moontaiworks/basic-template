@@ -4,7 +4,6 @@
     "composite": true,
     "noEmit": false,
     "emitDeclarationOnly": true,
-    "target": "ESNext",
     "baseUrl": "../src"
   },
   "include": ["./**/*.ts", "../src/**/*.spec.ts"],

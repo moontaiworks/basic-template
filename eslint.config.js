@@ -2,16 +2,12 @@
 import pluginJs from "@eslint/js";
 import eslintConfigPrettier from "eslint-config-prettier";
 import perfectionist from "eslint-plugin-perfectionist";
-import globals from "globals";
 import { configs as tsConfigs, config as typedConfig } from "typescript-eslint";
 
 export default typedConfig(
   { ignores: ["node_modules", "dist", "build", "docs", "coverage"] },
   {
     files: ["src/**/*.ts"],
-    languageOptions: {
-      globals: globals.browser,
-    },
     rules: {
       "no-restricted-imports": [
         "error",
